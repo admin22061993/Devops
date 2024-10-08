@@ -1,0 +1,9 @@
+#/bin/bash
+echo "enter value a"
+read a
+echo "enter vaule b"
+read b
+echo "enter vale c"
+read c
+
+

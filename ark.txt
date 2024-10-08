@@ -1,0 +1,7 @@
+awk 'BEGIN {FS=","; OFS="-"}
+
+{print $1, $2, $3}
+END {print "Completed processing student records"}
+' file.csv
+
+

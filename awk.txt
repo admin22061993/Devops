@@ -1,0 +1,7 @@
+awk '
+
+BEGIN {FS=","}
+
+{print $1,"FNR="FNR,"NR="NR}
+
+END{print "Total",NR,"processed lines"}' file.csv file.csv
