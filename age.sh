@@ -1,5 +1,5 @@
 #/bin/bash
-echo "Enter the age"
+echo "Enter age"
 read age
 if [ "$age" -ge 60 ]; then
 	echo "Senior Citizen"
